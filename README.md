@@ -5,8 +5,11 @@ a python plus freefilesync app to spoof test data on your window real time and s
 - Install the software from freefilesync.org
 - Plugin your mobile phone to your PC via USB
 - Note your device name as seen on the application
-- On **line 31** of `SAMPLE....ffs_batch`, change the string to the source folder for ex. `"D:\usr\docs\chxtr\output"` (i.e, where out.txt is stored)
-- On **line 32** of the the above file, change the string to the destination folder for ex. `"mtp:\SamsungA54\SD Card\docs\chxtrsaves"` (i.e, where out.txt from the PC will be synced on your phone)
+- On **line 31** of `SAMPLE....ffs_batch` [(this file)](https://github.com/grawlix0/chxtr/blob/main/SAMPLEspoofer_outs_SyncSettings.ffs_batch), change the string to the source folder for ex. `"D:\usr\docs\chxtr\output"` (i.e, where out.txt is generated and stored by the app)
+- On **line 32** of the the above file, change the string to the destination folder for ex. `"mtp:\SamsungA54\SD Card\docs\chxtrsaves"` (i.e, where out.txt from the PC will be synced on your phone by the freefilesync software)
+- ⚠️ program might require creating directories `output` and `dump-imgs` to function without errors (just make these two empty folders in the same level directory where the code files are)
+  - `output` stores the `out.txt` text file
+  - `dump-imgs` stores the screenshots of your window
 
 ## Dependencies
 - PyTesseract
@@ -16,4 +19,15 @@ a python plus freefilesync app to spoof test data on your window real time and s
 - external software - FreeFileSync
 ... maybe others too
 
-I would basically dump this code into a file then run `start.bat` or `agent.py` (remove the w from .pyw in the original files) and install the dependencies one by one. I'd appreciate if on of you come back and update this section of the README with your findings.
+I would basically dump this code into a folder then run `start.bat` or `agent.py` (remove the w from .pyw in the original files) and install the dependencies one by one. I'd appreciate if on of you come back and update this section of the README with your findings.
+
+## How it works
+- Double click `agent.pyw` or `start.bat`
+- the app is now running in the background
+- connect your phone via USB to your PC (watch for a system tray icon from FreeFileSync showing syncing between your phone and PC)
+- the initial loading can take upto two minutes
+- every right click you make stores a picture of your screen
+- all discernible text is OCRd into an `out.txt` file
+- the `out.txt` file is synced in sequence for every click you make (i.e, for every new output)
+- you should see the text file in the designated folder on your phone after 2 - 3 seconds
+- open the file on a convenient reader app and select and google away!
