@@ -1,5 +1,6 @@
 # chxtr
 a python plus freefilesync app to spoof test data on your window real time and save it to a nifty text file, ready to google
+i recommend installing files on [this commit](https://github.com/grawlix0/chxtr/commit/e22f3d81cf66659649b13211143d1161415cdd0e) to keep things simple
 
 ## How to use FreeFileSync and edit the ffs_batch file
 - Install the software from freefilesync.org
