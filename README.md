@@ -10,6 +10,7 @@ i recommend installing files on [this commit](https://github.com/grawlix0/chxtr/
 - Note your device name as seen on the application
 - On **line 31** of `SAMPLE....ffs_batch` [(this file)](https://github.com/grawlix0/chxtr/blob/main/SAMPLEspoofer_outs_SyncSettings.ffs_batch), change the string to the source folder for ex. `"D:\usr\docs\chxtr\output"` (i.e, where out.txt is generated and stored by the app)
 - On **line 32** of the the above file, change the string to the destination folder for ex. `"mtp:\SamsungA54\SD Card\docs\chxtrsaves"` (i.e, where out.txt from the PC will be synced on your phone by the freefilesync software)
+- ⚠️ Change the path value on line 5 of [kawpier.py](https://github.com/grawlix0/chxtr/blob/main/kawpier.py) to the path value of this `ffs_batch` file
 - ⚠️ program might require creating directories `output` and `dump-imgs` to function without errors (just make these two empty folders in the same level directory where the code files are)
   - `output` stores the `out.txt` text file
   - `dump-imgs` stores the screenshots of your window (you can chose to sync these images if tesseract setup is unsuccessful, and google lens them via your phone)
