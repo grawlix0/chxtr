@@ -22,7 +22,7 @@ i recommend installing files on [this commit](https://github.com/grawlix0/chxtr/
 - external software - FreeFileSync, Tessteract/PyTesseract
 - ... maybe others too
 
-I would basically dump this code into a folder then run `start.bat` or `agent.py` (remove the w from .pyw in the original files) and install the dependencies one by one. I'd appreciate if on of you come back and update this section of the README with your findings.
+I would basically dump this code into a folder then run `start.bat` or `agent.py` (remove the w from .pyw in the original files) and install the dependencies one by one. I'd appreciate if any of you come back and update this section of the README with your findings.
 
 ## How it works
 - Double click `agent.pyw` or `start.bat`
