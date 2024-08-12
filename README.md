@@ -19,7 +19,7 @@ i recommend installing files on [this commit](https://github.com/grawlix0/chxtr/
 - PyAutoGUI
 - Pillow (PIL)
 - win32api
-- external software - FreeFileSync, Tessteract/PyTesseract
+- external software - FreeFileSync, Tesseract/PyTesseract
 - ... maybe others too
 
 I would basically dump this code into a folder then run `start.bat` or `agent.py` (remove the w from .pyw in the original files) and install the dependencies one by one. I'd appreciate if any of you come back and update this section of the README with your findings.
