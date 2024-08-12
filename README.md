@@ -12,7 +12,7 @@ i recommend installing files on [this commit](https://github.com/grawlix0/chxtr/
 - On **line 32** of the the above file, change the string to the destination folder for ex. `"mtp:\SamsungA54\SD Card\docs\chxtrsaves"` (i.e, where out.txt from the PC will be synced on your phone by the freefilesync software)
 - ⚠️ program might require creating directories `output` and `dump-imgs` to function without errors (just make these two empty folders in the same level directory where the code files are)
   - `output` stores the `out.txt` text file
-  - `dump-imgs` stores the screenshots of your window
+  - `dump-imgs` stores the screenshots of your window (you can chose to sync these images if tesseract setup is unsuccessful, and google lens them via your phone)
 
 ## Dependencies
 - PyTesseract
