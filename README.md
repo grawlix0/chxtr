@@ -16,12 +16,11 @@ i recommend installing files on [this commit](https://github.com/grawlix0/chxtr/
   - `dump-imgs` stores the screenshots of your window (you can chose to sync these images if tesseract setup is unsuccessful, and google lens them via your phone)
 
 ## Dependencies
-- PyTesseract
 - PyAutoGUI
 - Pillow (PIL)
 - win32api
-- external software - FreeFileSync
-... maybe others too
+- external software - FreeFileSync, Tessteract/PyTesseract
+- ... maybe others too
 
 I would basically dump this code into a folder then run `start.bat` or `agent.py` (remove the w from .pyw in the original files) and install the dependencies one by one. I'd appreciate if on of you come back and update this section of the README with your findings.
 
