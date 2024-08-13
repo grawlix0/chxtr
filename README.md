@@ -20,7 +20,8 @@ i recommend downloading files on [this commit](https://github.com/grawlix0/chxtr
 - Pillow (PIL)
 - win32api
 - external software - FreeFileSync, Tesseract/PyTesseract
-- ... maybe others too
+
+... maybe others too
 
 I would basically dump this code into a folder then run `start.bat` or `agent.py` (remove the w from .pyw in the original files) and install the dependencies one by one. I'd appreciate if any of you come back and update this section of the README with your findings.
 
@@ -29,7 +30,7 @@ I would basically dump this code into a folder then run `start.bat` or `agent.py
 - the app is now running in the background
 - connect your phone via USB to your PC (watch for a system tray icon from FreeFileSync showing syncing between your phone and PC)
 - the initial loading can take upto two minutes
-- every right click you make stores a picture of your screen
+- every **left** click you make stores a picture of your screen
 - all discernible text is OCRd into an `out.txt` file
 - the `out.txt` file is synced in sequence for every click you make (i.e, for every new output)
 - you should see the text file in the designated folder on your phone after 2 - 3 seconds
